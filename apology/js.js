@@ -9,7 +9,7 @@ const lines = [
     "",
     "I’m really sorry. I know I overwhelmed you emotionally, and that wasn’t my intention at all. I just messed up, and I take full responsibility for it.",
     "",
-    "I know what I said hurt you, and I hate that I made you feel that way.",
+    "I know what I mess up a lot which hurt you, and I hate that I made you feel that way.",
     "",
     "I miss you na kaayo, Beb,",
     "",
