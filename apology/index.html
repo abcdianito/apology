@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For You, Kate</title>
+
+<link rel="stylesheet" href="simpledesign.css">
+</head>
+
+<body>
+
+<div class="floating-hearts">
+    <span>💜</span><span>💜</span><span>💜</span><span>💜</span><span>💜</span>
+</div>
+
+<h2 class="title">Open the Envelope!</h2>
+
+<div class="container">
+
+    <!-- ENVELOPE -->
+    <div class="envelope" id="envelope" onclick="openLetter()">
+
+        <div class="top-flap"></div>
+        <div class="left-flap"></div>
+        <div class="right-flap"></div>
+        <div class="bottom-flap"></div>
+
+        <div class="seal">💜</div>
+
+    </div>
+
+    <!-- LETTER -->
+    <div class="letter" id="letter">
+
+        <h1>To My Love 💜</h1>
+
+        <div id="typedText"></div>
+
+        <div class="forgive-section" id="forgiveSection">
+
+            <h3>Will you forgive me? 💜</h3>
+
+            <div class="buttons">
+                <button id="yesBtn">Yes 💜</button>
+                <button id="noBtn">No 😔</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- POPUP -->
+<div class="popup" id="popup">
+
+    <div class="popup-box">
+
+        <h2>Yeheeyyy! 💜</h2>
+
+        <p>
+            Forgiven na ako 💜 Di na jud mausab promiseee 🥺💜
+        </p>
+
+        <button onclick="closePopup()">Close</button>
+
+    </div>
+
+</div>
+
+<script src="js.js"></script>
+</body>
+</html>
